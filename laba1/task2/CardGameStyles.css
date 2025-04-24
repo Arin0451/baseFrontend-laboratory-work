@@ -1,0 +1,32 @@
+*{
+    font-family: 'Segoe UI';
+    background-color: #f6f6f6;
+}
+
+.player{
+    margin: 20px 0px 20px 0px;
+}
+
+.player-name{
+    font-size: 20px;
+    margin-bottom: 20px;
+    
+}
+
+.cards{
+    font-size: 50px;
+    display: flex;
+}
+
+.black-suit-card{
+    background-color: #e0e0e0;   
+    margin-right: 10px;
+    padding: 0px 5px 0px 5px;
+}
+
+.red-suit-card{
+    background-color: #e0e0e0;
+    color: #950000;
+    margin-right: 10px;
+    padding: 0px 10px 0px 10px; 
+}
