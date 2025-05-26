@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  color:#f5f5f5;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  background-color: #f5f5f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  max-width: 1000px;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  background-color: #014242;
+
+  padding:50px
+}
+
+.path{
+  color: #768d86;
+  margin-bottom: 30px;
+}
+
+.title{
+  color: #f5f5f5;
+  font-weight: bold;
+  font-size: 50px;
+  max-width: 600px;
+  margin-bottom: 40px;
+}
+
+.label{
+  color: #768d86;
+}
+
+.profile{
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
+}
+
+.profile__info{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.profile__avatar{
+  margin-right: 30px;
+  align-self: center;
+}
+
+.info__author__name{
+  text-wrap: nowrap;
+}
+
+.info__comments__go{
+  text-wrap: nowrap;
+}
+
+.info__publication__date{
+  text-wrap: nowrap;
+}
+
+.info__updated__date{
+  text-wrap: nowrap;
+}
+
+@media (max-width: 600px){
+
+  .main{
+    padding:10px;
+  }
+
+  .info__updated {
+    order: -1;
+  }
+  
+  .info__author {
+    order: 1;
+  }
+  
+  .info__comments {
+    order: 2; 
+  }
+  
+  .info__publication {
+    order: 3; 
+  }
+
+  .profile__info{
+    flex-wrap: wrap;
+    max-width: 300px;
+  }
+}
