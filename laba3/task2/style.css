@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+
+  table {
+    border-collapse: collapse;
+
+  }
+
+  thead tr th {
+    position: sticky;
+    top: 0;
+    background-color: #d1ecf1;
+    z-index: 2;
+    padding: 10px 15px;
+  }
+
+  tbody tr td {
+    padding: 10px 15px;
+    background-color: #f8f9fa;
+  }
+
+  tbody tr:nth-child(even) td {
+    background-color: #e9ecef;
+  }
+
+  /* Первый столбец (фиксация по горизонтали) */
+  thead tr th:first-child,
+  tbody tr td:first-child {
+    position: sticky;
+    left: 0;
+    background-color: #cce5ff;
+    z-index: 3;
+  }
+
+  /* Верхний левый угол (пересечение заголовка и первого столбца) */
+  thead tr th:first-child {
+    z-index: 4;
+  }
+

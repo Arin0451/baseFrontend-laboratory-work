@@ -1,0 +1,22 @@
+*{
+    font-size: 20px;
+    font-family: 'Segoe UI';
+    color:#ffffff;
+}
+
+body {
+    margin: 0;
+    background-image: url('https://images.unsplash.com/photo-1506744038136-46273834b3fb'); /* Можете заменить */
+    background-attachment: fixed; 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .main {
+    max-width: 700px;
+    margin: 0px auto;
+    background-color: rgba(138, 138, 138, 0.8); 
+    padding: 40px;
+  }
+
